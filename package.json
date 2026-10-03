@@ -7,12 +7,13 @@
   "author": "Tiaan du Plessis",
   "license": "MIT",
   "scripts": {
-    "lint": "standard --fix index.js"
+    "lint": "standard --fix index.js",
+    "test": "node test.js"
   },
   "devDependencies": {
     "standard": "^11.0.1"
   },
   "dependencies": {
-    "shelljs": "^0.8.2"
+    "shelljs": "^0.8.5"
   }
 }
